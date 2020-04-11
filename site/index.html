@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Japanese Ammo Notes</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div class="desktop-view">
+    <div class="navigation dw">
+      <div class="nav-top">
+        <div class="nav-top-text-wrapper">
+          <h1 class="page-title">Japammo</h1>
+        </div>
+        <div class="nav-search-input-wrapper">
+          <input class="search-input" type="text" placeholder="Search notes">
+        </div>
+      </div>
+      <div class="nav-middle">
+        <ul class="nav-list">
+          <li class="nav-text" data-scriptname="compliments" onclick="changeView(this)">Compliments</li>
+          <li class="nav-text" data-scriptname="haveto" onclick="changeView(this)">Have To</li>
+          <li class="nav-text" data-scriptname="iftara" onclick="changeView(this)">If/When "tara"</li>
+          <li class="nav-text" data-scriptname="ifnara" onclick="changeView(this)">If/When "nara"</li>
+          <li class="nav-text" data-scriptname="inorderto" onclick="changeView(this)">In Order To</li>
+          <li class="nav-text" data-scriptname="potentialform" onclick="changeView(this)">Potential</li>
+          <li class="nav-text" data-scriptname="wishidid" onclick="changeView(this)">Potential</li>
+        </ul>
+      </div>
+    </div>
+    <div class="view dw">
+      <div class="lesson-title"></div>
+      <div class="gets-notes"></div>
+      <button class="see-unique" onclick="getUniqueKanji()">Unique Kanji</button>
+    </div>
+  </div>
+  <script type="text/javascript" src="../clean notes/complimentsData.js" class="lesson-script"></script>
+  <script type="text/javascript" src="../clean notes/havetoData.js" class="lesson-script"></script>
+  <script type="text/javascript" src="../clean notes/inordertoData.js" class="lesson-script"></script>
+  <script type="text/javascript" src="../clean notes/potentialformData.js" class="lesson-script"></script>
+  <script type="text/javascript" src="../clean notes/wishididData.js" class="lesson-script"></script>
+  <script type="text/javascript" src="../clean notes/iftaraData.js" class="lesson-script"></script>
+  <script type="text/javascript" src="../clean notes/ifnaraData.js" class="lesson-script"></script>
+  <script type="text/javascript" src="alphabet.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
